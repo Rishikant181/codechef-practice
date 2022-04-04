@@ -29,15 +29,12 @@ int main() {
 
     // Inputting data for each test case
     for(int i = 0; i < numTest; i++) {
-        // To store the initial and final volumes for each test case temporarily
         int ivol;
         int fvol;
 
-        // Taking initial and final volume as input
         std::cin >> ivol;
         std::cin >> fvol;
 
-        // Storing initial and final volumes
         initVol.push_back(ivol);
         finalVol.push_back(fvol);
     }

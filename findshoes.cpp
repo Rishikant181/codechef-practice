@@ -36,15 +36,12 @@ int main() {
 
     // Inputting data for each test case
     for(int i = 0; i < numTests; i++) {
-        // Temp storage
         int friends;
         int leftShoes;
 
-        // Storing the input number of friends and left shoes temporarily
         std::cin >> friends;
         std::cin >> leftShoes;
 
-        // Adding the data to the corressponding vectors
         friendCount.push_back(friends);
         leftShoeCount.push_back(leftShoes);
     }
